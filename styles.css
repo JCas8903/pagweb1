@@ -1,0 +1,82 @@
+/*Jorge Castro JCAS8903 */
+body{
+
+    background-image: url("MJ9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+        /*width : 100%;
+        max-width : 1200px;
+        margin : auto;
+        padding : 0.25rem;*/
+    }
+
+    h2{
+        color: rgb(39, 45, 39);
+    }
+    h1{
+        color : hsl(0, 13%, 94%) !important;
+        text-align: center;
+    }
+    #video{
+        font-size : 20px;
+    }
+    iframe, video{
+        width : 60%;/*sets the width of the images and videos % relative to parent element*/
+        height : 40%;/*sets the height of the images and videos % relative to parent element*/
+        height : 30em; /*em relative to parent element font size*/
+
+        border : 1rem solid rgb(49, 1, 4);
+        border-radius : 1rem;
+    }
+
+
+    /*COLOR TEXTO BIOGRFIA*/
+    main p{
+        color :#140101;
+    }
+    section{
+        background :hsla(0, 1%, 77%, 0.753); /*COLOR DE LOS CUADROS*/
+    }
+
+    header{
+    /*primer cuadro*/
+        background-image: linear-gradient(hwb(0 4% 51%) 10%, rgb(255, 255, 255) 10%, black 80%) !important;
+
+        margin : 1rem 1.5rem .5rem;
+        margin : 1rem;
+    }
+    .main-section-figure{
+
+       border-radius : 1rem;
+       text-align: center;
+
+    }
+    #relative-path-image{
+        background-color: rgb(16, 17, 16);
+        border : .25rem solid #d00606;
+        color :rgb(250, 245, 245);
+    }
+    #absolute-path-image{
+        background-color: rgb(1, 17, 4);
+        border : .25rem solid #e01010;
+        color : hsl(240, 22%, 95%);
+    }
+    .main-section-figure img{
+        width : 20%;
+        height : 40%;
+        padding : .5rem;
+        border-radius : 1rem;
+
+    }
+    main {
+        margin-top : 5rem;
+
+    }
+    #quote{
+        p{
+            color :#140101;
+        }
+        section{
+            background :hsla(0, 1%, 77%, 0.753);
+        }
+    }
